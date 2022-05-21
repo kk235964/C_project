@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+    int num;
+    printf("Type a no. to know whether it is multiple of 8 or Not\n");
+    scanf("%d",&num);
+    if(num%8==0)
+    {
+        printf("%d is a multiple of 8\n THank You!",num);
+        
+    }
+    else {
+        printf("%d is not multiple of 8\n Thank You!",num);
+        
+    }
+    return 0;
+}
